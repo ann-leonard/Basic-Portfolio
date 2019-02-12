@@ -1,35 +1,14 @@
-  header {
-  border-bottom: solid;
-  border-spacing: 0;
-  border-color: #cccccc;
-  background-color: #ffffff;
-  height: 90px;
-  top: 0;
-  width: 100%;
-}
 
-#name {
-  width: 190px;
-  height: 13px;
+#name{
   background-color: #4aaaa5;
-  padding: 30px;
-  padding-right: 30px;
-  margin-left: 15%;
   color: #ffffff;
-  display: inline-block;
-  top: 20px;
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 2em;
   font-family: 'Georgia', Times, serif;
+
+
 }
 
-.topnav{
-  position: relative;
-  top: -70px;
-  right: -1120px;
-  word-spacing: 20px;
-  color: #4aaaa5;
-}
+
 
 a:link {
   color: #777777;
@@ -45,11 +24,7 @@ a:hover, a:active {
 
 section {
   background-color: #ffffff;
-  margin-left: 15%;
-  margin-right:15%;
-  padding: 15px;
-  float:left;
-  margin-top: 20px;
+
 }
 
 #myPic {
@@ -86,8 +61,7 @@ p {
 h3{
   color: #4aaaa5;
   font-family: 'Georgia', Times, serif;
-  margin-top: 30px;
-  font-size: 2em;
+
 }
 
 section {
@@ -96,7 +70,8 @@ section {
   color: #777777;
   width: 960px;
   padding: 30px;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+
 }
 
 hr{
