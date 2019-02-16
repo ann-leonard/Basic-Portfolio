@@ -4,29 +4,47 @@
 <head>
   <meta charset="utf-8">
   <title>Ann Leonard</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="css/reset.css" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" >
 </head>
 <body>
-  <header>
-    <h1 id="name">Ann Leonard</h1>
-    <div class="topnav">
-      <a id="about" href="index.html">About</a>
-      |
-      <a id="Portfolio" href="portfolio.html">Portfolio</a>
-      |
-      <a id="contact" href="contact.html">Contact</a>
+  <div class="container.fluid">
+    <nav class="navbar sticky-top navbar-light bg-light pb-0 pt-0">
+      <a  id="name" class="navbar-brand ml-5 pl-3 pr-3" href="#">Ann Leonard</a>
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 bg-light pl-4 pr-4 mt-4 pt-4">
+      <h3>Portfolio</h3>
+      <hr>
+    <div class="col-md-12 bg-light pl-4 pr-4">
+      <img src="images/portPic1.jpg" alt="portfolio example">
+      <img src="images/portPic2.jpg" alt="portfolio example">
+      <img src="images/portPic3.jpg" alt="portfolio example">
+      <img src="images/portPic4.jpg" alt="portfolio example">
+      <img src="images/portPic5.jpg" alt="portfolio example">
     </div>
-  </header>
-  <section>
-    <h3>Portfolio</h3>
-    <hr>
-    <img src="images/portPic1.jpg" alt="portfolio example">
-    <img src="images/portPic2.jpg" alt="portfolio example">
-    <img src="images/portPic3.jpg" alt="portfolio example">
-    <img src="images/portPic4.jpg" alt="portfolio example">
-    <img src="images/portPic5.jpg" alt="portfolio example">
-  </section>
+  </div>
   <footer>
     &copy; 2019
   </footer>
+  </div>
+</div>
 </body>
