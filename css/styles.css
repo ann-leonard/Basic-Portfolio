@@ -32,12 +32,13 @@ section {
   margin-right: 30px;
 }
 
-img {
+img,.port {
   float: left;
   padding: 20px;
-  width: 80%;
+ }
+.port{
+	width: 20%;
 }
-
 body {
   background-color: #dddddd;
   background-image: url("bananas.png");
